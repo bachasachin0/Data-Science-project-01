@@ -36,8 +36,8 @@ def main():
 
            prediction = model.predict(user_df)
 
-          st.subheader("Predicted Selling Price")
-          st.write("The predicted selling price for the car is:", prediction)
+           st.subheader("Predicted Selling Price")
+           st.write("The predicted selling price for the car is:", prediction)
 
 if __name__ == "__main__":
     main()
